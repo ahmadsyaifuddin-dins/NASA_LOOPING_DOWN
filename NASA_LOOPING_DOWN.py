@@ -14,11 +14,13 @@ kode_pengguna = int(input("Masukkan kode : "))
 if kode_pengguna in kodes_benar:
  for i in range(1, kode_pengguna+1):
     print("Process ..." )
-    time.sleep(0.1)
+    time.sleep(0.01)
+  print()
  print("NASA HACKED ! ")
 
 else:
     for i in range(1, kode_pengguna + 1):
         print("Process ...")
-        time.sleep(0.1)
+        time.sleep(0.01)
+     print()
     print("HACKING FAILED")
