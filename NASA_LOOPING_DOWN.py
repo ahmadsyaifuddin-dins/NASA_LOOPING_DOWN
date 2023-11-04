@@ -12,15 +12,13 @@ kodes_benar = [25, 50 , 100, 111 , 1000 , 1100 , 1110, 10110, 1114, 6666, 56999,
 # Meminta pengguna memasukkan kode
 kode_pengguna = int(input("Masukkan kode : "))
 if kode_pengguna in kodes_benar:
- for i in range(1, kode_pengguna+1):
+  for i in range(1, kode_pengguna+1):
     print("Process ..." )
     time.sleep(0.01)
-  print()
- print("NASA HACKED ! ")
+  print("NASA HACKED ! ")
 
 else:
     for i in range(1, kode_pengguna + 1):
-        print("Process ...")
-        time.sleep(0.01)
-     print()
+      print("Process ...")
+    time.sleep(0.01)
     print("HACKING FAILED")
