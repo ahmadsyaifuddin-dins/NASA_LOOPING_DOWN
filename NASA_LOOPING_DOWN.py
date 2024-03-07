@@ -1,12 +1,12 @@
 #KREDIT AHMAD SYAIFUDDIN
-#Looping ini ketika berjalan maka Processnya berjalan beruntun kebawah dan berakhir ke nilai yg di inputkan User 
+#Looping ini ketika berjalan maka Processnya berjalan beruntun kebawah dan berakhir ke nilai yg di inputkan User
 
 import random
 import os
 import time
 os.system('cls')
 
-# Daftar kode yang bernilai True
+# Daftar kode hack yang akan bernilai benar (Berhasil)
 kodes_benar = [25, 50 , 100, 111 , 1000 , 1100 , 1110, 10110, 1114, 6666, 56999, 75000]
 
 # Meminta pengguna memasukkan kode
